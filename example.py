@@ -1,10 +1,6 @@
-"""
-Example Problem
+"""Example Problem
 1.
 2.
-3.
-"""
-
-# Solution:
-
+3."""
+### CODE BELOW ###
 print("Test")

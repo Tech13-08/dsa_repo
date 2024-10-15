@@ -28,9 +28,14 @@ Constraints:
 
 #include <vector>
 #include <stack>
+#include <iostream>
+
 class Solution {
 public:
     int maxWidthRamp(std::vector<int>& nums) {
+        std::ios::sync_with_stdio(0);
+        std::cin.tie(0);
+        std::cout.tie(0);
         int n = nums.size();
         int maxWidth = 0;
         std::stack<int> s;
